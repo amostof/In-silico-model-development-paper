@@ -1,0 +1,10 @@
+function output_synthetic_one_run(finalp)
+    println("\n************************************* \n Analysis complete. ")
+    println("Ground truth: $(p)\nInitial Guess: $(round.(initialp, sigdigits=4))\nNoise level: $(noiselevel*100)%")
+    println("tsteps: $(ddt/3600)h")
+    println("Final parameters: $(round.(finalp, sigdigits=4))")
+    println("Error: $(round(norm(finalp - p) ./ norm(p) .* 100, sigdigits=3))%")
+    println("Error per parameter: $(round.((finalp - p) ./ (p) .* 100, sigdigits=3))%")
+    println("Error per parameter: $(round.(log.(finalp ./ p), sigdigits=3))")
+    println("Normalized Loss: $(round.(loss(finalp, noisydata, prob, prob_func; logscale = false, save_idxs = save_idxs, onlyLoss = true, useLikelihood = false), sigdigits=3))")
+end
