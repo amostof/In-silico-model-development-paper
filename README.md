@@ -31,11 +31,18 @@ which auto-activate the project and enable local path handling from DrWatson.
 If you use this code for academic research, you are encouraged to cite the following paper:
 If you use this code for academic research, you are encouraged to cite the following paper:
 ```
-@unpublished{Mostofinejad2024InSilico,
-  title = {{\textit{In silico} model development and optimization of \textit{in vitro} lung cell population growth}},
-  author = {Mostofinejad, Amirmahdi and Romero, David A. and Brinson, Dana and Marin-Araujo, Alba E. and Bazylak, Aimy and Waddell, Thomas K. and Haykal, Siba and Karoubi, Golnaz and Amon, Cristina H.},
-  note = {Submitted to PLOS One},
-  year = {2024}
+@article{Mostofinejad2024InSilico,
+    doi = {10.1371/journal.pone.0300902},
+    author = {Mostofinejad, Amirmahdi AND Romero, David A. AND Brinson, Dana AND Marin-Araujo, Alba E. AND Bazylak, Aimy AND Waddell, Thomas K. AND Haykal, Siba AND Karoubi, Golnaz AND Amon, Cristina H.},
+    journal = {PLOS ONE},
+    publisher = {Public Library of Science},
+    title = {In silico model development and optimization of in vitro lung cell population growth},
+    year = {2024},
+    month = {05},
+    volume = {19},
+    url = {https://doi.org/10.1371/journal.pone.0300902},
+    pages = {1-27},
+    number = {5},
 }
 ```
 
